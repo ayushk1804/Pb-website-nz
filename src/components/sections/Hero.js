@@ -86,11 +86,11 @@ const Hero = ({
             </div> */}
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="500">
-              
+
                   <AwesomeSlider>
                   <div data-src= {ca_1} />
                   <div data-src={ca_2} />
-                      <div data-src={ca_3} />
+                  <div data-src={ca_3} />
                 </AwesomeSlider>
           </div>
           {/* <Modal

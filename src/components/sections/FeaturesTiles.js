@@ -81,7 +81,7 @@ const FeaturesTiles = ({
                     ACM - ICPC
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Duis aute irure dolor in reprehenderit in voluptate
                     </p>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const FeaturesTiles = ({
                     DevOps Docker
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Duis aute irure dolor in reprehenderit in voluptate
                     </p>
                 </div>
               </div>
@@ -125,7 +125,7 @@ const FeaturesTiles = ({
                    Flutter Development
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Duis aute irure dolor in reprehenderit in voluptate
                     </p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const FeaturesTiles = ({
                     React Development
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Duis aute irure dolor in reprehenderit in voluptate
                     </p>
                 </div>
               </div>
@@ -169,7 +169,7 @@ const FeaturesTiles = ({
                       Open Source Hackathon
                         </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Duis aute irure dolor in reprehenderit in voluptate
                     </p>
                 </div>
               </div>
@@ -191,7 +191,7 @@ const FeaturesTiles = ({
                     Interview Prep
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Duis aute irure dolor in reprehenderit in voluptate
                     </p>
                 </div>
               </div>
