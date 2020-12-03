@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import Typical from 'react-typical';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -62,7 +63,11 @@ const FeaturesTiles = ({
 
           <SectionHeader data={sectionHeader} className="center-content" />
           {/* <SectionHeader data={sectionHeader2} className="center-content" /> */}
-
+          <Typical
+       steps={['We are POINT BLANK', 1000, 'We are <. >', 900,'We are a community',700]}
+       loop={Infinity}
+       wrapper="p"
+     />
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
