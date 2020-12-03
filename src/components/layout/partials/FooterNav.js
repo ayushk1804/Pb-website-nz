@@ -25,10 +25,10 @@ const FooterNav = ({
           <Link to="#0">About us</Link>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
+          <Link to="#0">Teams</Link>
         </li>
         <li>
-          <Link to="#0">Support</Link>
+          <Link to="#0"><a href="https://mail.pointblank.club.com/mail/?view=cm&source=mailto&to=support@pointblank.club" target="_blank">Support</a></Link>
         </li>
       </ul>
     </nav>

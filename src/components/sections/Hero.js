@@ -35,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -79,13 +79,7 @@ const Hero = ({
               </div>
             </div> */}
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="500">
               <Image
                 className="has-shadow"
                 src={require('./../../assets/images/Point Blank_4k.svg')}
@@ -93,7 +87,6 @@ const Hero = ({
                 alt="Hero"
                 width={896}
                 height={504} />
-            </a>
           </div>
           {/* <Modal
             id="video-modal"
