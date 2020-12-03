@@ -5,6 +5,12 @@ import { SectionProps } from '../../utils/SectionProps';
 // import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import ca_1 from "./../../assets/images/ca_1.jpeg"
+import ca_2 from "./../../assets/images/ca_2.jpeg"
+import ca_3 from "./../../assets/images/ca_3.jpeg"
+
 
 const propTypes = {
   ...SectionProps.types
@@ -80,13 +86,12 @@ const Hero = ({
             </div> */}
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="500">
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/Point Blank_4k.svg')}
-                // C:\Users\Sparsh\Desktop\open-react-template\src\assets\images\video-placeholder.png.png
-                alt="Hero"
-                width={896}
-                height={504} />
+              
+                  <AwesomeSlider>
+                  <div data-src= {ca_1} />
+                  <div data-src={ca_2} />
+                      <div data-src={ca_3} />
+                </AwesomeSlider>
           </div>
           {/* <Modal
             id="video-modal"
