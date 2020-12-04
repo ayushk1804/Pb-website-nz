@@ -63,11 +63,17 @@ const FeaturesTiles = ({
 
           <SectionHeader data={sectionHeader} className="center-content" />
           {/* <SectionHeader data={sectionHeader2} className="center-content" /> */}
-          <Typical
+
+
+          <h2 style={{textAlign: "center"}}><Typical
        steps={['We are POINT BLANK', 1000, 'We are <. >', 900,'We are a community',700]}
        loop={Infinity}
        wrapper="p"
-     />
+     /></h2>
+
+      <p style={{textAlign: "center"}}>
+        We are a multidisciplinary community of programmers</p>
+
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
